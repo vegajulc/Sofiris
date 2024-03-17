@@ -28,8 +28,8 @@ public class TableroAjedrez {
     }
 
     private void crearFichasBlancas() {
-        fP1 = new Peon("P1","Blanca","a", "2");
-        fP2 = new Peon("P2","Blanca","b", "2");
+        fP1 = new Peon("P1","Blanca","a", "2",6,0);
+        fP2 = new Peon("P2","Blanca","b", "2",6,1);
         fP3 = new Peon("P3","Blanca","c", "2");
         fP4 = new Peon("P4","Blanca","d", "2");
         fP5 = new Peon("P5","Blanca","e", "2");
@@ -38,8 +38,8 @@ public class TableroAjedrez {
         fP8 = new Peon("P8","Blanca","h", "2");
         fC1 = new Caballo("C1","Blanca","b", "1");
         fC2 = new Caballo("C2", "Blanca", "g", "1");
-        fA1 = new Alfil("A1","Blanca","c", "1");
-        fA2 = new Alfil("A2","Blanca","f", "1");
+        fA1 = new Alfil("A1","Blanca","c", "1",7,2);
+        fA2 = new Alfil("A2","Blanca","f", "1",7,5);
         fT1 = new Torre("T1","Blanca","a", "1");
         fT2 = new Torre("T2","Blanca","h", "1");
         fR1 = new Rey("R1", "Blanca", "a", "1");
